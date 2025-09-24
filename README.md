@@ -43,8 +43,7 @@
 
 ---
 
-### Independent Multi-Camera Support
-- Each script can connect to a different RTSP stream.  
+### Independent Multi-Camera Support 
 - Supports both **indoor corridors** and **outdoor areas**.  
 
 ---
