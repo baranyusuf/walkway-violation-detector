@@ -12,10 +12,10 @@ import threading
 
 from pytapo import Tapo
 # Replace with your camera's details
-host = "192.168.137.98"  # Camera IP
-username = "duldulemre"
-password = "duldulemre"
-cam = Tapo(host, "admin", "E.a1n2t3")
+host = ""  # Camera IP
+username = ""
+password = ""
+cam = Tapo(host, "", "")
 alarm_on = False
 
 
@@ -375,3 +375,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
