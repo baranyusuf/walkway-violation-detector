@@ -94,7 +94,7 @@ with open(tracking_durations_csv, mode='w', newline='') as file:
 
 
 # Video source
-stream = 'rtsp://duldulemre:duldulemre@192.168.137.98/stream1'
+stream = ''
 # Video file or webcam source
 VIDEO_FILE = "Videos/TestVideo1.mp4"
 
@@ -375,4 +375,5 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
 
